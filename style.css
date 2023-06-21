@@ -178,9 +178,59 @@ li {
 
 /* APPLYING MEDIA QUERIES FOR MOBILE*/
 
-  @media (max-width: 648px) {
+@media (max-width: 352px) {
 
-   .menu1 {
+    .menu1 {
+       gap: 0.1em;
+       font-size: 8px;
+       letter-spacing: normal;
+    }
+ 
+    .menu1 li {
+         padding: 1px 5px;
+    }
+ 
+    .nav-icons {
+         display: none;
+    }
+ 
+    .nav-icons-med {
+         display: none;
+    }
+ 
+    .nav-icons-small {
+         display: flex;
+    }
+ 
+    .background-img {
+         height: fit-content;
+    }
+ 
+    .itext {
+         top: 12%;
+         padding: 1em;
+         padding-right: 2em;
+         font-size: 7px;
+    }
+ 
+    .lorem {
+         font-size: 10px;
+    }
+ 
+    .order {
+         font-size: 24px;
+         padding: 1em;
+    }   
+ 
+    .card{
+         width: 100%;
+    }
+ 
+}
+
+@media (min-width: 352px) and (max-width: 648px) {
+
+    .menu1 {
       gap: 0.2em;
       font-size: 10px;
       letter-spacing: normal;
